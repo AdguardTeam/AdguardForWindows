@@ -2,8 +2,8 @@
 
 Adguard is the world's most advanced web filter and ad blocker. It consists of several modules such as Ad Blocker, Browsing Security and Spyware protection module, not to mention various additional features like parental control or userscript support. Adguard filters ads in any browser, from Chrome and Firefox to Edge and Internet Explorer. If you use some unusual browser, which is not filtered by default, just add it to the list and enjoy clean Internet.
 
-![win_1_edit](https://cloud.githubusercontent.com/assets/8577533/9547265/ccad5d48-4da1-11e5-99b6-ecfcaac137db.jpg)
-![win_2_edit](https://cloud.githubusercontent.com/assets/8577533/9547272/d954b8de-4da1-11e5-9706-b2f75ec53a65.jpg)
+![win_1_edit](https://cloud.githubusercontent.com/assets/8577533/9547309/09652662-4da2-11e5-90a3-876ed623f29a.jpg)
+![win_2_edit](https://cloud.githubusercontent.com/assets/8577533/9547315/12833da6-4da2-11e5-9070-49d0b7395156.jpg)
 
 
 ### How to get Adguard for Windows?  
