@@ -5,11 +5,9 @@ Adguard is the world's most advanced web filter and ad blocker. It consists of s
 ![win_1_edit](https://cloud.githubusercontent.com/assets/8577533/9547309/09652662-4da2-11e5-90a3-876ed623f29a.jpg)
 ![win_2_edit](https://cloud.githubusercontent.com/assets/8577533/9547315/12833da6-4da2-11e5-9070-49d0b7395156.jpg)
 
-
 ### How to get Adguard for Windows?  
 Adguard for Windows can be downloaded from our official website:
 http://adguard.com
-
 
 ### Our plans
 
