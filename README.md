@@ -14,3 +14,10 @@ http://adguard.com
 To see the 'big picture', watch current progress and get an idea of approximate dates for Windows releases, see this page: https://github.com/AdguardTeam/AdguardForWindows/milestones
 
 If you want to see what's in our nearest plans, or would like to submit a new bug/feature request, you can do it here: https://github.com/AdguardTeam/AdguardForWindows/issues
+
+### Releases
+
+Latest version: **6.0.65.314**
+
+You can find all Adguard releases here:
+https://github.com/AdguardTeam/AdguardForWindows/releases
