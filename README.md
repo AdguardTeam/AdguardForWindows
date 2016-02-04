@@ -19,7 +19,7 @@ If you want to see what's in our nearest plans, or would like to submit a new bu
 ### Releases
 
 Latest version:
-*6.0.183.953* (RC3)
+*6.0.185.961*
 
 You can find all Adguard releases here:
 https://github.com/AdguardTeam/AdguardForWindows/releases
