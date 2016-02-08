@@ -1,6 +1,6 @@
 # Adguard for Windows
 
-> **Disclaimer** Adguard for Windows is not an open source. We use github as an open bug tracker for users to see what developers are working on.
+> **Disclaimer** Adguard for Windows is not an open source project. We use github as an open bug tracker for users to see what developers are working on.
 
 Adguard is the world's most advanced web filter and ad blocker. It consists of several modules such as Ad Blocker, Browsing Security and Spyware protection module, not to mention various additional features like parental control or userscript support. Adguard filters ads in any browser, from Chrome and Firefox to Edge and Internet Explorer. If you use some unusual browser, which is not filtered by default, just add it to the list and enjoy clean Internet.
 
