@@ -21,7 +21,7 @@ If you want to see what's in our nearest plans, or would like to submit a new bu
 ### Releases
 
 Latest version:
-*6.1.249.1233 beta*
+*6.1.250.1247 beta*
 
 You can find all Adguard releases here:
 https://github.com/AdguardTeam/AdguardForWindows/releases
