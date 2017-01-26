@@ -12,6 +12,10 @@ Adguard is the world's most advanced web filter and ad blocker. It consists of s
 Adguard for Windows can be downloaded from our official website:
 https://adguard.com/
 
+### How to become a beta tester?
+
+All information related to Adguard beta-testing is collected in this [blog article](https://blog.adguard.com/en/adguard-beta-test/). 
+
 ### Our plans
 
 To see the 'big picture', watch current progress and get an idea of approximate dates for Windows releases, see this page: https://github.com/AdguardTeam/AdguardForWindows/milestones
