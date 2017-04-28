@@ -28,4 +28,4 @@ Latest version:
 *6.2.357.1887 beta*
 
 You can find all Adguard releases here:
-https://github.com/AdguardTeam/AdguardForWindows/releases
+https://github.com/AdguardTeam/AdguardForWindows/releases 
