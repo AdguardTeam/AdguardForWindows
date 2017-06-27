@@ -25,15 +25,14 @@
 
 </details>
 
+### Adguard log files
+<!--- Here's the guide how to find them https://kb.adguard.com/en/windows/solving-problems/adguard-logs -->
 
 ### Your Environment
 <!--- Please include all relevant details about the environment you experienced the bug in -->
 * Adguard version:
 * Environment name and version (e.g. Chrome 59):
-* Operating System and version (e.g. Windows 10, v.1703, build 15063.413)
-
-### Adguard log files
-<!--- Here's the guide how to find them https://kb.adguard.com/en/windows/solving-problems/adguard-logs -->
+* Operating system and version (e.g. Windows 10, v.1703, build 15063.413)
 
 ### Customer ID 
 <!--- If exists -->
