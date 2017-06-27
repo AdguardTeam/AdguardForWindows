@@ -34,3 +34,8 @@
 
 ### Adguard log files
 <!--- Here's the guide how to find them https://kb.adguard.com/en/windows/solving-problems/adguard-logs -->
+
+### Customer ID 
+<!--- If exists -->
+
+
