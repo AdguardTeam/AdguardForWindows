@@ -33,4 +33,4 @@
 * Operating System and version (e.g. Windows 10, v.1703, build 15063.413)
 
 ### Adguard log files
-<!--- Here's the guide how to finde them https://kb.adguard.com/en/windows/solving-problems/adguard-logs -->
+<!--- Here's the guide how to find them https://kb.adguard.com/en/windows/solving-problems/adguard-logs -->
