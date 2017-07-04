@@ -24,12 +24,8 @@
 
 </details>
 
-
-### Adguard log files
-<!--- Send us a diagnostic report through the application, click on "Support" on Adguard's main screen-->
-
 ### Customer ID 
-<!--- You will get an autoreply with you Customer ID after sending a report -->
+<!--- Send us a diagnostic report through the application, click on the gear icon in the app's main window, and choose "Support". You will get an auto-reply with you Customer ID after sending a report -->
 
 ### Your environment
 <!--- Please include all relevant details about the environment you experienced the bug in -->
