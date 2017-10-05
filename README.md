@@ -1,31 +1,33 @@
-# Adguard for Windows
+# AdGuard for Windows
 
-> **Disclaimer** Adguard for Windows is not an open source project. We use github as an open bug tracker for users to see what developers are working on.
+> **Disclaimer:** AdGuard for Windows is not an open source project. We use GitHub as an open bug tracker for users to see what developers are working on. 
 
-Adguard is the world's most advanced web filter and ad blocker. It consists of several modules such as Ad Blocker, Browsing Security and Spyware protection module, not to mention various additional features like parental control or userscript support. Adguard filters ads in any browser, from Chrome and Firefox to Edge and Internet Explorer. If you use some unusual browser, which is not filtered by default, just add it to the list and enjoy clean Internet.
+AdGuard is a unique program that has all the necessary features for the best web experience. It combines the world's most advanced ad blocker, a whole privacy protection module and a browsing security tool — all working in any browser or app. 
+
+To get more information and to download AdGuard for Windows, visit our website [https://adguard.com/](https://adguard.com/adguard-windows/overview.html).
 
 ![win_1_edit](https://cloud.githubusercontent.com/assets/8577533/9547309/09652662-4da2-11e5-90a3-876ed623f29a.jpg)
 ![win_2_edit](https://cloud.githubusercontent.com/assets/8577533/9547315/12833da6-4da2-11e5-9070-49d0b7395156.jpg)
 
-### How to get Adguard for Windows?
+### How to report an issue?
 
-Adguard for Windows can be downloaded from our official website:
-https://adguard.com/
+GitHub can be used to report a bug or to submit a feature request. To do so, go to [this page](https://github.com/AdguardTeam/AdguardForWindows/issues) and click the *New issue* button.
 
-### How to become a beta tester?
-
-All information related to Adguard beta-testing is collected in this [blog article](https://blog.adguard.com/en/adguard-beta-test/). 
+>**Note:** for the filter-related issues (missed ads, false positives etc.) use the [dedicated repository](https://github.com/AdguardTeam/AdguardFilters). 
 
 ### Our plans
 
-To see the 'big picture', watch current progress and get an idea of approximate dates for Windows releases, see this page: https://github.com/AdguardTeam/AdguardForWindows/milestones
-
-If you want to see what's in our nearest plans, or would like to submit a new bug/feature request, you can do it here: https://github.com/AdguardTeam/AdguardForWindows/issues
+To see the 'big picture', to watch current progress and to get an idea of approximate dates for upcoming AdGuard for Windows releases, see this page: https://github.com/AdguardTeam/AdguardForWindows/milestones
 
 ### Releases
 
-Latest version:
-*6.2.390.2018 beta*
+Latest release version: [6.1.331.1732](https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v6.1.331.1732)
 
-You can find all Adguard releases here:
+Latest beta version: [6.2.390.2018 beta](https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v6.2.390.2018-beta)
+
+You can find all AdGuard for Windows releases here:
 https://github.com/AdguardTeam/AdguardForWindows/releases
+
+### How to become a beta tester?
+
+You can submit an application to participate in AdGuard for Windows beta-testing program. All necessary information on this topic can be found in our [Knowledgebase article](https://kb.adguard.com/general/adguard-beta-testing-program#windows). 
