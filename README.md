@@ -1,7 +1,7 @@
 # AdGuard for Windows
 > ### Disclaimer
 > * AdGuard for Windows is not an open source project. We use GitHub as an open bug tracker for users to see what developers are working on.
-> * Privacy policy: https://adguard.com/privacy/windows.html (Briefly: AdGuard sends only necessary, limited information, e.g. information necessary for a license check).
+> * Privacy policy: https://adguard.com/privacy/windows.html (Briefly: AdGuard sends only necessary, limited information, e.g. information required for a license check).
 
 AdGuard is a unique program that has all the necessary features for the best web experience. It combines the world's most advanced ad blocker, a whole privacy protection module and a browsing security tool — all working in any browser or app. 
 
@@ -22,12 +22,10 @@ To see the 'big picture', to watch current progress and to get an idea of approx
 
 ### Releases
 
-Latest release version: [6.1.331.1732](https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v6.1.331.1732)
+ * Latest release version: [6.1.331.1732](https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v6.1.331.1732)
+ * Latest beta: [6.2.390.2018 beta](https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v6.2.390.2018-beta)
 
-Latest beta version: [6.2.390.2018 beta](https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v6.2.390.2018-beta)
-
-You can find all AdGuard for Windows releases here:
-https://github.com/AdguardTeam/AdguardForWindows/releases
+You can find all AdGuard for Windows releases here: https://github.com/AdguardTeam/AdguardForWindows/releases
 
 ### How to become a beta tester?
 
