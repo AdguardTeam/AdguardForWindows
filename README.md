@@ -7,8 +7,8 @@ AdGuard is a unique program that has all the necessary features for the best web
 
 To get more information and to download AdGuard for Windows, visit our website [https://adguard.com/](https://adguard.com/adguard-windows/overview.html).
 
-![win_1_edit](https://cloud.githubusercontent.com/assets/8577533/9547309/09652662-4da2-11e5-90a3-876ed623f29a.jpg)
-![win_2_edit](https://cloud.githubusercontent.com/assets/8577533/9547315/12833da6-4da2-11e5-9070-49d0b7395156.jpg)
+<img src="https://user-images.githubusercontent.com/17472907/42506354-4fd66b24-844a-11e8-8466-8745c815031b.PNG" width="400px"> <img src="https://user-images.githubusercontent.com/17472907/42506356-520dbf46-844a-11e8-9370-5a73b8e093a7.PNG" width="400px">
+
 
 ### How to report an issue?
 
