@@ -23,7 +23,8 @@ To see the 'big picture', to watch current progress and to get an idea of approx
 ### Releases
 
 * Latest release version: [6.3.1399.4073](https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v6.3.1399.4073)
-* Latest beta version: same as the release one
+* Latest beta version: [6.4.1537.4349](https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v6.4.1537.4349-beta)
+
 * Latest nightly version available [here](https://agrd.io/windows_nightly)
 
 You can find all AdGuard for Windows releases here: https://github.com/AdguardTeam/AdguardForWindows/releases
