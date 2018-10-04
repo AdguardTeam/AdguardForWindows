@@ -31,4 +31,4 @@ You can find all AdGuard for Windows releases here: https://github.com/AdguardTe
 
 ### How to become a beta tester?
 
-You can submit an application to participate in AdGuard for Windows beta-testing program. All necessary information on this topic can be found in our [Knowledgebase article](https://kb.adguard.com/general/adguard-beta-testing-program#windows). 
+You can submit an application to participate in AdGuard for Windows beta-testing program. All necessary information on this topic can be found on the [dedicated page](https://adguard.com/beta.html).
