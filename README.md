@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/win.svg" width="300px" alt="AdGuard for Android"
+  <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/win.svg" width="300px" alt="AdGuard for Windows"
  />
   </p>
 <h3 align="center">Ad blocker with advanced privacy protection features</h3>
@@ -39,7 +39,7 @@
 
 AdGuard is a unique tool that blocks ads in apps and browsers even without ROOT privileges, protects your privacy, and helps you manage your apps. AdGuard gives you options of running it either VPN or HTTP proxy mode and allows to set up custom DNS settings (with DNSCrypt support).
 
-To get more information and to download AdGuard for Android, visit our website [https://adguard.com/](https://adguard.com/adguard-android/overview.html).
+To get more information and to download AdGuard for Windows, visit our website [https://adguard.com/](https://adguard.com/adguard-windows/overview.html).
 
 <img src="https://cdn.adguard.com/public/Adguard/screenshots/adguardwindowsmainEN.png" width="400px"> <img src="https://cdn.adguard.com/public/Adguard/screenshots/windowsgeneralEN.png" width="400px">
 
@@ -49,7 +49,7 @@ To get more information and to download AdGuard for Android, visit our website [
 <a id="issue"></a>
 ### How to report an issue?
 
-GitHub can be used to report a bug or to submit a feature request. To do so, go to [this page](https://github.com/AdguardTeam/AdguardForAndroid/issues) and click the *New issue* button.
+GitHub can be used to report a bug or to submit a feature request. To do so, go to [this page](https://github.com/AdguardTeam/AdGuardforWindows/issues) and click the *New issue* button.
 
 >**Note:** for the filter-related issues (missed ads, false positives etc.) use our [reporting tool](https://reports.adguard.com/new_issue.html).
 
@@ -67,9 +67,9 @@ Here is a [dedicated page](https://adguard.com/contribute.html) for those who ar
 <a id="beta-tester"></a>
 ### How to become a beta tester?
 
-You can submit an application to participate in AdGuard for Android beta-testing program. All necessary information on this topic can be found on the [dedicated page](https://adguard.com/beta.html).
+You can submit an application to participate in AdGuard for Windows beta-testing program. All necessary information on this topic can be found on the [dedicated page](https://adguard.com/beta.html).
 
 <a id="our-plans"></a>
 ## Our plans
 
-To see the 'big picture', to watch current progress and to get an idea of approximate dates for upcoming AdGuard for Android releases, see this page: https://github.com/AdguardTeam/AdguardForAndroid/milestones
+To see the 'big picture', to watch current progress and to get an idea of approximate dates for upcoming AdGuard for Windows releases, see this page: https://github.com/AdguardTeam/AdguardForWindows/milestones
