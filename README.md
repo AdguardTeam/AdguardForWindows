@@ -1,34 +1,72 @@
-# AdGuard for Windows
-> ### Disclaimer
-> * AdGuard for Windows is not an open source project. We use GitHub as an open bug tracker for users to see what developers are working on.
-> * Privacy policy: https://adguard.com/privacy/windows.html (Briefly: AdGuard sends only necessary, limited information, e.g. information required for a license check).
+<p align="center">
+  <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/win.svg" width="300px" alt="AdGuard for Windows"
+ />
+  </p>
+<h3 align="center">Ad blocker with advanced privacy protection features</h3>
+<p align="center">
+    All-round protection from all kinds of online ads, tracking and malvertising.
+</p>
+  
+  <p align="center"> 
+    <a href="https://adguard.com/">Website</a> |
+    <a href="https://reddit.com/r/Adguard">Reddit</a> |
+    <a href="https://twitter.com/AdGuard">Twitter</a> |
+    <a href="https://t.me/adguard_en">Telegram</a>
+    <br /><br />
+    <a
+    </a>
+    <a href="https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v7.1.2817.0">
+        <img src="https://img.shields.io/badge/release-v7.1-green.svg" alt="Latest release" />
+    </a>
+    <a href="https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v7.1.2817.0">
+    <img src="https://img.shields.io/badge/beta-v7.1-yellow.svg" alt="Beta version>" />
+    </a>
 
-AdGuard is a unique program that has all the necessary features for the best web experience. It combines the world's most advanced ad blocker, a whole privacy protection module and a browsing security tool — all working in any browser or app. 
+
+* [Contribution](#contribution)
+  * [How to report an issue](#issue)
+  * [Translating AdGuard](#contribution-translating)
+  * [Other options](#contribution-other)
+  * [How to become a Beta tester](#beta-tester)
+* [Our plans](#our-plans)
+
+> ### Disclaimer
+>* AdGuard for Windows is not an open source project. We use GitHub as an open bug tracker for users to see what developers are working on. However, we at AdGuard create [a lot of open source software](https://github.com/search?o=desc&q=topic%3Aopen-source+org%3AAdguardTeam+fork%3Atrue&s=stars&type=Repositories).
+>* Privacy policy: https://adguard.com/privacy/windows.html (Briefly: AdGuard sends only necessary, limited information, e.g. information required for a license check).
+
+ AdGuard for Windows will not only block all types of ads in any browser and application,<br/>but also offers the highest level of online privacy protection.
 
 To get more information and to download AdGuard for Windows, visit our website [https://adguard.com/](https://adguard.com/adguard-windows/overview.html).
 
 <img src="https://cdn.adguard.com/public/Adguard/screenshots/adguardwindowsmainEN.png" width="400px"> <img src="https://cdn.adguard.com/public/Adguard/screenshots/windowsgeneralEN.png" width="400px">
 
+<a id="contribution"></a>
+## Contribution
 
+<a id="issue"></a>
 ### How to report an issue?
 
-GitHub can be used to report a bug or to submit a feature request. To do so, go to [this page](https://github.com/AdguardTeam/AdguardForWindows/issues) and click the *New issue* button.
+GitHub can be used to report a bug or to submit a feature request. To do so, go to [this page](https://github.com/AdguardTeam/AdGuardforWindows/issues) and click the *New issue* button.
 
->**Note:** for the filter-related issues (missed ads, false positives etc.) use the [dedicated repository](https://github.com/AdguardTeam/AdguardFilters). 
+>**Note:** for the filter-related issues (missed ads, false positives etc.) use our [reporting tool](https://reports.adguard.com/new_issue.html).
 
-### Our plans
+<a id="contribution-translating"></a>
+### Translating AdGuard
 
-To see the 'big picture', to watch current progress and to get an idea of approximate dates for upcoming AdGuard for Windows releases, see this page: https://github.com/AdguardTeam/AdguardForWindows/milestones
+If you want to help with AdGuard translations, please learn more about translating our products here: https://kb.adguard.com/en/general/adguard-translations
 
-### Releases
+<a id="contribution-other"></a>
+### Other options
 
-* Latest release version: [7.1.2817](https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v7.1.2817.0)
-* Latest beta version: the same as release
+Here is a [dedicated page](https://adguard.com/contribute.html) for those who are willing to contribute.
 
-* Latest nightly version available [here](https://agrd.io/windows_nightly)
 
-You can find all AdGuard for Windows releases here: https://github.com/AdguardTeam/AdguardForWindows/releases
-
+<a id="beta-tester"></a>
 ### How to become a beta tester?
 
 You can submit an application to participate in AdGuard for Windows beta-testing program. All necessary information on this topic can be found on the [dedicated page](https://adguard.com/beta.html).
+
+<a id="our-plans"></a>
+## Our plans
+
+To see the 'big picture', to watch current progress and to get an idea of approximate dates for upcoming AdGuard for Windows releases, see this page: https://github.com/AdguardTeam/AdguardForWindows/milestones
