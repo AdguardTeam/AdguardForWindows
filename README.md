@@ -16,10 +16,10 @@
     <a
     </a>
     <a href="https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v7.1.2817.0">
-        <img src="https://img.shields.io/badge/release-v7.1-green.svg" alt="Latest release" />
+        <img src="https://img.shields.io/github/tag/AdguardTeam/AdGuardForWindows.svg?label=release&color=<BLUE>" alt="Latest release" />
     </a>
     <a href="https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v7.1.2817.0">
-    <img src="https://img.shields.io/badge/beta-v7.1-yellow.svg" alt="Beta version>" />
+    <img src="https://img.shields.io/github/tag/AdguardTeam/AdGuardForWindows.svg?label=beta&=<YELLOWGREEN>" alt="Beta version>" />
     </a>
 
 
