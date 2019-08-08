@@ -19,7 +19,7 @@
         <img src="https://img.shields.io/github/tag/AdguardTeam/AdGuardForWindows.svg?label=release&color=<BLUE>" alt="Latest release" />
     </a>
     <a href="https://github.com/AdguardTeam/AdguardForWindows/releases/tag/v7.1.2817.0">
-    <img src="https://img.shields.io/github/tag/AdguardTeam/AdGuardForWindows.svg?label=beta&=<YELLOWGREEN>" alt="Beta version>" />
+    <img src="https://img.shields.io/github/tag-pre/AdguardTeam/AdGuardForWindows.svg?label=beta&=<YELLOWGREEN>" alt="Beta version>" />
     </a>
 
 
