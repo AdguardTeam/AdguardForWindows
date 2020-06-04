@@ -53,7 +53,7 @@ GitHub can be used to report a bug or to submit a feature request. To do so, go 
 <a id="contribution-translating"></a>
 ### Translating AdGuard
 
-If you want to help with AdGuard translations, please learn more about translating our products here: https://kb.adguard.com/en/general/adguard-translations
+If you want to help with AdGuard translations, please learn more about translating our products [here](https://kb.adguard.com/en/general/adguard-translations).
 
 <a id="contribution-other"></a>
 ### Other options
