@@ -22,7 +22,6 @@
     <img src="https://img.shields.io/github/tag-pre/AdguardTeam/AdGuardForWindows.svg?label=beta&=<YELLOWGREEN>" alt="Beta version>" />
     </a>
 
-
 * [Contribution](#contribution)
   * [How to report an issue](#issue)
   * [Translating AdGuard](#contribution-translating)
