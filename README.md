@@ -15,10 +15,10 @@
     <br /><br />
     <a
     </a>
-    <a href="https://github.com/AdguardTeam/AdguardForAndroid/releases/">
+    <a href="https://github.com/AdguardTeam/AdguardForWindows/releases/">
         <img src="https://img.shields.io/github/tag/AdguardTeam/AdGuardForWindows.svg?label=release&color=<BLUE>" alt="Latest release" />
     </a>
-    <a href="https://github.com/AdguardTeam/AdguardForAndroid/releases/">
+    <a href="https://github.com/AdguardTeam/AdguardForWindows/releases/">
     <img src="https://img.shields.io/github/tag-pre/AdguardTeam/AdGuardForWindows.svg?label=beta&=<YELLOWGREEN>" alt="Beta version>" />
     </a>
 
