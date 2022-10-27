@@ -37,7 +37,7 @@
 
 To get more information and to download AdGuard for Windows, visit our website [https://adguard.com/](https://adguard.com/adguard-windows/overview.html).
 
-<kbd><img src="https://cdn.adguard.com/public/Adguard/screenshots/adguardwindowsmainEN.png" width="400px"></kbd> <kbd><img src="https://cdn.adguard.com/public/Adguard/screenshots/windowsgeneralEN.png" width="400px"></kbd>
+<kbd><img src="https://cdn.adguard.com/content/github/ad_blocker/windows/main.png" width="400px"></kbd> <kbd><img src="https://cdn.adguard.com/content/github/ad_blocker/windows/general.png" width="400px"></kbd>
 
 <a id="contribution"></a>
 ## Contribution
