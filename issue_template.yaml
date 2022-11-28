@@ -1,3 +1,5 @@
+---
+
 name: 🐞 Bug report
 description: Create a bug report to help us improve AdGuard for Windows.
 labels: []
@@ -37,7 +39,6 @@ body:
       description: Select enabled filters from the list.
       multiple: true
       options:
-        - No filters
         - AdGuard Base filter
         - AdGuard Mobile Ads filter
         - AdGuard Chinese filter
@@ -151,12 +152,12 @@ body:
         - Hide your IP address
         - Remove X-client-Data header from HTTP request
         - Protect from DPI
-  - type: textarea
-    id: customer_id 
+   - type: textarea
+    id: customer_id
     attributes:
-      label: Customer ID
-      description:
-      placeholder: Send us a diagnostic report through the application. Click on the gear icon in the app's main window, and choose "Support". You will get an auto-reply containing your Customer ID after sending a report.
+      label: Support ticket ID
+      description: If you've already sent us a diagnostic report through the application, share the ticket ID number. You can find it in an auto-reply email from AdGuard support after sending a report.
+      placeholder: Enter a ticket ID
     validations:
       required: false
   - type: textarea
@@ -164,9 +165,9 @@ body:
     attributes:
       label: Issue Details
       description: What happened?
-      placeholder: Please include all relevant details about the issue you've experienced.
+      placeholder: Please describe the steps to reproduce the issue you've experienced.
     validations:
-      required: false    
+      required: true
   - type: textarea
     id: how_it_should_be
     attributes:
