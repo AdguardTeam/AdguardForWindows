@@ -152,7 +152,7 @@ body:
         - Hide your IP address
         - Remove X-client-Data header from HTTP request
         - Protect from DPI
-   - type: textarea
+  - type: textarea
     id: customer_id
     attributes:
       label: Support ticket ID
