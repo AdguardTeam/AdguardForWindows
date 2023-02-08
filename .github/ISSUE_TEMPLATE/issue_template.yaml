@@ -136,6 +136,41 @@ body:
         - Others
     validations:
       required: false
+  - type: dropdown
+    id: stealth
+    attributes:
+      label: What Stealth Mode options do you have enabled?
+      description: Select any of these options if you have them enabled in Stealth Mode.
+      multiple: true
+      options:
+        - Hide your search queries
+        - Send Do-Not-Track signals
+        - Strip URLs of tracking parameters
+        - Self-destruction of third-party cookies
+        - Self-destruction of first-party cookies
+        - Disable cache for third-party requests
+        - Block the third-party Authorization header
+        - Disable WebRTC
+        - Block Push API
+        - Block Location API
+        - Block Flash
+        - Disable Windows Telemetry
+        - Turn off Advertising ID
+        - Disable Microsoft Defender automatic samples submission
+        - Disable WAP Push Message Routing Service
+        - Hide your Referrer from third-parties
+        - Hide your User Agent
+        - Hide your IP address
+        - Remove X-client-Data header from HTTP request
+        - Protect from DPI
+  - type: textarea
+    id: customer_id
+    attributes:
+      label: Support ticket ID
+      description: If you've already sent us a diagnostic report through the application, share the ticket ID number. You can find it in an auto-reply email from AdGuard support after sending a report.
+      placeholder: Enter a ticket ID
+    validations:
+      required: false
   - type: textarea
     id: what-happened
     attributes:
