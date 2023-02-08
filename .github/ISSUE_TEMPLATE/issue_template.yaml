@@ -8,6 +8,16 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    attributes:
+      label: Please answer the following questions for yourself before submitting an issue.
+      description:
+      options:
+        - label: I am running the latest version
+        - label: I checked the documentation and found no answer
+        - label: I checked to make sure that this issue has not already been filed
+    validations:
+      required: true
   - type: input
     id: app_version
     attributes:
@@ -16,29 +26,30 @@ body:
       placeholder: For example, 7.11.2
     validations:
       required: true
-  - type: input
-    id: br_version
+  - type: textarea
     attributes:
-      label: Browser version
-      description: What browser do you use?
-      placeholder: For example, Chrome 106
-    validations:
-      required: true
-  - type: input
-    id: os_version
-    attributes:
-      label: OS version
-      description: What operating system do you use?
-      placeholder: For example, Windows 11, 21H2, build 22000.1219
+      label: Environment
+      description: |
+        Examples:
+          - **OS**: Windows 11, 21H2, build 22000.1219
+          - **Browser**: Chrome 106
+      value: |
+          - OS:
+          - Browser:
+      render: markdown
     validations:
       required: true
   - type: dropdown
     id: filters
     attributes:
       label: What filters do you have enabled?
-      description: Select enabled filters from the list.
+      description: |
+        Select enabled filters from the list if they are related to the application bug.
+        If the issue is related to the filtering (missed ads, cookie, etc.)
+        use the [Web Reporting Tool](https://kb.adguard.com/en/technical-support/reporting-tool) please.
       multiple: true
       options:
+        - No filters
         - AdGuard Base filter
         - AdGuard Mobile Ads filter
         - AdGuard Chinese filter
@@ -53,6 +64,11 @@ body:
         - AdGuard URL Tracking filter
         - AdGuard Social Media filter
         - AdGuard Annoyances filter
+        - AdGuard Cookie Notices filter
+        - AdGuard Popups filter
+        - AdGuard Mobile App Banners filter
+        - AdGuard Widgets filter
+        - AdGuard Other Annoyances filter
         - AdGuard DNS filter
         - AdGuard Experimental filter
         - Filter unblocking search ads and self-promotion
@@ -84,24 +100,18 @@ body:
         - Xfiles
         - Adblock Warning Removal List
         - Online Malicious URL Blocklist
-        - Spam404
         - RU AdList - Counters
         - ABPVN List
         - Fanboy's Enhanced Tracking List
         - Official Polish filters for AdBlock, uBlock Origin & AdGuard
         - Polish GDPR-Cookies Filters
         - Estonian List
-        - ChinaList+EasyList
         - CJX's Annoyances List
         - Polish Social Filters
-        - Adblock-Persian list
-        - Fanboy's Swedish
         - Fanboy's Anti-Facebook List
-        - Fanboy's Vietnamese
         - List-KR
         - xinggsf
         - I don't care about cookies
-        - Fanboy's Spanish\/Portuguese
         - EasyList Spanish
         - KAD - Anti-Scam
         - Adblock List for Finland
@@ -111,7 +121,6 @@ body:
         - Polish Annoyances Filters
         - Polish Anti Adblock Filters
         - Fanboy's Anti-thirdparty Fonts
-        - BarbBlock
         - EasyList Cookie List
         - NoCoin Filter List
         - Frellwit's Swedish Filter
@@ -122,50 +131,22 @@ body:
         - Dandelion Sprout's Nordic Filters
         - Dandelion Sprout's Annoyances List
         - Legitimate URL Shortener
+        - Dandelion Sprout's Serbo-Croatian List
+        - IndianList
         - Others
     validations:
-      required: false
-  - type: dropdown
-    id: stealth
-    attributes:
-      label: What Stealth Mode options do you have enabled?
-      description: Select any of these options if you have them enabled in Stealth Mode.
-      multiple: true
-      options:
-        - Hide your search queries
-        - Send Do-Not-Track signals
-        - Strip URLs of tracking parameters
-        - Self-destruction of third-party cookies
-        - Self-destruction of first-party cookies
-        - Disable cache for third-party requests
-        - Block the third-party Authorization header
-        - Disable WebRTC
-        - Block Push API
-        - Block Location API
-        - Block Flash
-        - Disable Windows Telemetry
-        - Turn off Advertising ID
-        - Disable Microsoft Defender automatic samples submission
-        - Disable WAP Push Message Routing Service
-        - Hide your Referrer from third-parties
-        - Hide your User Agent
-        - Hide your IP address
-        - Remove X-client-Data header from HTTP request
-        - Protect from DPI
-  - type: textarea
-    id: customer_id
-    attributes:
-      label: Support ticket ID
-      description: If you've already sent us a diagnostic report through the application, share the ticket ID number. You can find it in an auto-reply email from AdGuard support after sending a report.
-      placeholder: Enter a ticket ID
-    validations:
-      required: false
+      required: false    
   - type: textarea
     id: what-happened
     attributes:
       label: Issue Details
-      description: What happened?
-      placeholder: Please describe the steps to reproduce the issue you've experienced.
+      description: Please provide a set of steps to reproduce the issue.
+      placeholder:
+      value: |
+        Steps to reproduce:
+        1.
+        2.
+        3.
     validations:
       required: true
   - type: textarea
@@ -180,8 +161,17 @@ body:
     id: screens
     attributes:
       label: Screenshots
-      description:
+      description: |
+        If applicable add screenshots explaining your problem.
+        You can drag and drop images or paste them from clipboard.
+        Use `<details> </details>` tag to hide screenshots under the spoiler.
       placeholder: If applicable add screenshots explaining your problem.
+      value: |
+          <details><summary>Screenshot 1:</summary>
+
+          <!-- paste screenshot here -->
+
+          </details>
     validations:
       required: false
   - type: textarea

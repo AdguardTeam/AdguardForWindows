@@ -1,7 +1,7 @@
 ---
 
 name: 🌱 Feature request
-description: Create a feature request to help us improve AdGuard for Windows.
+description: Create a feature request to help us improve AdGuard for Windows
 labels: []
 body:
   - type: textarea
