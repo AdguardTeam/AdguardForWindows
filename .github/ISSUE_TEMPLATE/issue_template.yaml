@@ -2,7 +2,7 @@
 
 name: 🐞 Bug report
 description: Create a bug report to help us improve AdGuard for Windows.
-labels: []
+labels: [bug]
 body:
   - type: markdown
     attributes:
