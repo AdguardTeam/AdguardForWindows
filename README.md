@@ -1,6 +1,6 @@
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/public/Adguard/Common/Logos/win_dark.svg" width="300px" alt="AdGuard VPN for Windows" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/public/Adguard/Common/Logos/win_dark.svg" width="300px" alt="AdGuard for Windows" />
   <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/win.svg" width="300px" alt="AdGuard for Windows"/>
 </picture>
   </p>
