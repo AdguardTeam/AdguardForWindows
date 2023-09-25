@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/win.svg" width="300px" alt="AdGuard for Windows"
- />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/public/Adguard/Common/Logos/win_dark.svg" width="300px" alt="AdGuard VPN for Windows" />
+  <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/win.svg" width="300px" alt="AdGuard for Windows"/>
+</picture>
   </p>
 <h3 align="center">The most advanced system-wide content blocker for Windows</h3>
 <p align="center">
@@ -37,7 +39,14 @@
 
 To get more information and to download AdGuard for Windows, visit our website [https://adguard.com/](https://adguard.com/adguard-windows/overview.html).
 
-<kbd><img src="https://cdn.adguard.com/content/github/ad_blocker/windows/main.png" width="400px"></kbd> <kbd><img src="https://cdn.adguard.com/content/github/ad_blocker/windows/general.png" width="400px"></kbd>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/content/release_notes/ad_blocker/windows/v7.14/main_dark_en.png" width="400px"/>
+<img src="https://cdn.adguard.com/content/release_notes/ad_blocker/windows/v7.14/main_light_en.png" width="400px">
+  </picture>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/content/release_notes/ad_blocker/windows/v7.14/general_dark_en.png" width="400px"/>
+  <img src="https://cdn.adguard.com/content/release_notes/ad_blocker/windows/v7.14/general_light_en.png" width="400px">
+</picture>
 
 <a id="contribution"></a>
 ## Contribution
