@@ -164,10 +164,23 @@ body:
     id: what-happened
     attributes:
       label: Issue Details
-      description: What happened?
-      placeholder: Please describe the steps to reproduce the issue you've experienced.
+      description: Please describe the steps to reproduce the issue you've experienced.
+      placeholder:
+      value: |
+        Steps to reproduce:
+        1.
+        2.
+        3.
     validations:
       required: true
+  - type: textarea
+    id: how_it_looks
+    attributes:
+      label: Actual Behavior
+      description:
+      placeholder: A clear description of what happened.
+    validations:
+      required: false    
   - type: textarea
     id: how_it_should_be
     attributes:
