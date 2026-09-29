@@ -230,6 +230,7 @@ body:
   - type: dropdown
     id: dns_protocol
     attributes:
+      description: Skip this if DNS protection is disabled.
       label: DNS protocol
       multiple: false
       options:
@@ -240,7 +241,7 @@ body:
         - DNS-over-TLS
         - DNS-over-QUIC
     validations:
-      required: false
+      required: true
       
   - type: textarea
     id: custom_dns
