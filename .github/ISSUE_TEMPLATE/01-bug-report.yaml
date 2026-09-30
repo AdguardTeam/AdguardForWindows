@@ -19,25 +19,25 @@ body:
     id: app_version
     attributes:
       label: AdGuard version
-      description: What version of our application are you running?
-      placeholder: For example, 7.18.1
+      description: What version of AdGuard for Windows are you running?
+      placeholder: For example, 8.0.1
     validations:
       required: true
   - type: input
     id: br_version
     attributes:
       label: Browser version
-      description: What browser do you use?
-      placeholder: For example, Chrome 124
+      description: What browser do you use, and what version are you running?
+      placeholder: For example, Chrome 152
     validations:
       required: true
 
   - type: input
     id: os_version
     attributes:
-      label: OS version
-      description: What operating system do you use?
-      placeholder: For example, Windows 11, 21H2 (OS build 22000)​​
+      label: Windows version
+      description: What version of Windows are you running?
+      placeholder: For example, Windows 11 25H2 (Build 26200)​​
     validations:
       required: true
   - type: checkboxes
@@ -45,7 +45,7 @@ body:
       label: Traffic filtering
       description: Do you have traffic filtering enabled?
       options:
-        - label: yes, I do
+        - label: Yes, I do
     validations:
       required: false
       
@@ -58,7 +58,7 @@ body:
       value: |
         Select enabled filters if they are related to the application bug.
         If the issue is related to the filtering (missed ads, cookie, etc.)
-        use the [Web Reporting Tool](https://kb.adguard.com/technical-support/reporting-tool) please.
+        please use the [Web Reporting Tool](https://link.adtidy.org/forward.html?action=report&app=home&from=github).
         
   - type: dropdown
     id: filters_adblock
@@ -79,6 +79,7 @@ body:
       multiple: true
       options:
         - AdGuard Tracking Protection filter
+        - AdGuard Mail Tracking Protection filter
         - AdGuard URL Tracking filter
         - EasyPrivacy
         - Legitimate URL Shortener
@@ -229,23 +230,25 @@ body:
   - type: dropdown
     id: dns_protocol
     attributes:
+      description: Skip this if DNS protection is disabled.
       label: DNS protocol
       multiple: false
       options:
+        - DNS protection disabled
         - Regular
         - DNSCrypt
         - DNS-over-HTTPS
         - DNS-over-TLS
         - DNS-over-QUIC
     validations:
-      required: false
+      required: true
       
   - type: textarea
     id: custom_dns
     attributes:
       label: Custom DNS
-      description: Please provide a link to the custom DNS you use
-      placeholder: If you have enabled DNS from the pre-defined list, skip this
+      description: Please provide a link to the custom DNS you use.
+      placeholder: If you have enabled DNS from the pre-defined list, skip this.
     validations:
       required: false
   - type: dropdown
@@ -322,15 +325,16 @@ body:
     attributes:
       label: Screenshots
       description: |
-        If applicable add screenshots explaining your problem.
+        If applicable, add screenshots explaining your problem.
         You can drag and drop images or paste them from clipboard.
         Use `<details> </details>` tag to hide screenshots under the spoiler.
-      placeholder: If applicable add screenshots explaining your problem.
+      placeholder: If applicable, add screenshots explaining your problem.
       value: |
           <details><summary>Screenshot 1</summary>
+          <!-- Paste screenshot below. -->
 
-          <!-- paste screenshot here -->
 
+          
           </details>
     validations:
       required: false
