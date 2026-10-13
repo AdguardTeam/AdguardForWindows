@@ -20,8 +20,8 @@
   </p>
 <br />
 <p align="center">
-  <img src="https://cdn.adtidy.org/content/release_notes/ad_blocker/windows/v8.0/mainscreen_norm.png" width="430px" alt="AdGuard for Windows main screen" />
-  <img src="https://cdn.adtidy.org/content/release_notes/ad_blocker/windows/v8.0/app_management_norm.png" width="430px" alt="AdGuard for Windows app management" />
+  <img src="https://cdn.adtidy.org/content/release_notes/ad_blocker/windows/v8.0/mainscreen_norm.png" width="49%" alt="AdGuard for Windows main screen" />
+  <img src="https://cdn.adtidy.org/content/release_notes/ad_blocker/windows/v8.0/app_management_norm.png" width="49%" alt="AdGuard for Windows app management" />
 </p>
 <br />
 
