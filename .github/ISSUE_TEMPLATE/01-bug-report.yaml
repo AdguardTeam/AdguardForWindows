@@ -5,6 +5,7 @@ body:
   - type: markdown
     attributes:
       value: Thanks for taking the time to fill out this bug report!
+
   - type: checkboxes
     attributes:
       label: Please answer the following questions for yourself before submitting an issue
@@ -15,18 +16,20 @@ body:
           required: true
         - label: I checked to make sure that this issue has not already been filed
           required: true
+
   - type: input
     id: app_version
     attributes:
-      label: AdGuard version
+      label: AdGuard Version
       description: What version of AdGuard for Windows are you running?
       placeholder: For example, 8.0.1
     validations:
       required: true
+
   - type: input
     id: br_version
     attributes:
-      label: Browser version
+      label: Browser Version
       description: What browser do you use, and what version are you running?
       placeholder: For example, Chrome 152
     validations:
@@ -35,20 +38,21 @@ body:
   - type: input
     id: os_version
     attributes:
-      label: Windows version
+      label: Windows Version
       description: What version of Windows are you running?
-      placeholder: For example, Windows 11 25H2 (Build 26200)​​
+      placeholder: For example, Windows 11 26H2 (Build 26300)​​
     validations:
       required: true
+
   - type: checkboxes
     attributes:
-      label: Traffic filtering
+      label: Traffic Filtering
       description: Do you have traffic filtering enabled?
       options:
         - label: Yes, I do
     validations:
       required: false
-      
+
   - type: markdown
     attributes:
       value: "### What filters do you have enabled?"
@@ -59,7 +63,7 @@ body:
         Select enabled filters if they are related to the application bug.
         If the issue is related to the filtering (missed ads, cookie, etc.)
         please use the [Web Reporting Tool](https://link.adtidy.org/forward.html?action=report&app=home&from=github).
-        
+
   - type: dropdown
     id: filters_adblock
     attributes:
@@ -148,23 +152,19 @@ body:
       label: Language-specific
       multiple: true
       options:
-        - AdGuard Chinese filter
-        - AdGuard Dutch filter
-        - AdGuard French filter
+        - AdGuard Russian filter
         - AdGuard German filter
         - AdGuard Japanese filter
-        - AdGuard Russian filter
+        - AdGuard Dutch filter
         - AdGuard Spanish/Portuguese filter
         - AdGuard Turkish filter
+        - AdGuard French filter
         - AdGuard Ukrainian filter
+        - AdGuard Italian filter
+        - AdGuard Polish filter
+        - AdGuard Chinese filter
         - ABPindo
-        - ABPVN List
-        - Adblock List for Finland
-        - AdBlockID
         - Bulgarian list
-        - CJX's Annoyances List
-        - Dandelion Sprout's Nordic Filters
-        - Dandelion Sprout's Serbo-Croatian List
         - EasyList China
         - EasyList Czech and Slovak
         - EasyList Dutch
@@ -172,43 +172,50 @@ body:
         - EasyList Hebrew
         - EasyList Italy
         - EasyList Lithuania
-        - EasyList Polish
-        - EasyList Portuguese
-        - EasyList Spanish
-        - EasyList Thailand
-        - Estonian List
-        - Frellwit's Swedish Filter
-        - Greek AdBlock Filter
-        - Hungarian filter
-        - Icelandic ABP List
-        - IndianList
-        - KAD - Anti-Scam
         - Latvian List
-        - List-KR
         - Liste AR
         - Liste FR
-        - Macedonian adBlock Filters
+        - ROList
+        - Icelandic ABP List
+        - AdBlockID
+        - Greek AdBlock Filter
+        - EasyList Portuguese
+        - EasyList Thailand
+        - Hungarian filter
+        - Xfiles
+        - "RU AdList: Counters"
+        - ABPVN List
         - Official Polish filters for AdBlock, uBlock Origin & AdGuard
+        - Polish GDPR-Cookies Filters
+        - Estonian List
+        - CJX's Annoyances List
+        - Polish Social Filters
+        - filterslist-KO Classic filter list
+        - xinggsf
+        - EasyList Spanish
+        - KAD - Anti-Scam
+        - Adblock List for Finland
+        - ROLIST2
         - Persian Blocker
+        - road-block
         - Polish Annoyances Filters
         - Polish Anti Adblock Filters
-        - Polish Anti-Annoying Special Supplement
-        - Polish GDPR-Cookies Filters
-        - Polish Social Filters
-        - road-block light
-        - ROList
-        - ROLIST2
-        - RU AdList - Counters
-        - Xfiles
-        - xinggsf
+        - Frellwit's Swedish Filter
         - YousList
+        - EasyList Polish
+        - Polish Anti-Annoying Special Supplement
+        - Dandelion Sprout's Serbo-Croatian List
+        - IndianList
+        - Macedonian adBlock Filters
+        - Dandelion Sprout's Nordic Filters
     validations:
       required: false
-      
+
   - type: dropdown
     id: dns_protection
     attributes:
-      label: Which DNS server do you use?
+      description: Which DNS server do you use? If you don't use DNS protection, select 'DNS protection disabled'.
+      label: DNS Server
       multiple: false
       options:
         - DNS protection disabled
@@ -226,12 +233,12 @@ body:
         - Custom DNS
     validations:
       required: true
-      
+
   - type: dropdown
     id: dns_protocol
     attributes:
-      description: Skip this if DNS protection is disabled.
-      label: DNS protocol
+      description: What DNS protocol do you use? If you don't use DNS protection, select 'DNS protection disabled'.
+      label: DNS Protocol
       multiple: false
       options:
         - DNS protection disabled
@@ -242,15 +249,16 @@ body:
         - DNS-over-QUIC
     validations:
       required: true
-      
+
   - type: textarea
     id: custom_dns
     attributes:
       label: Custom DNS
       description: Please provide a link to the custom DNS you use.
-      placeholder: If you have enabled DNS from the pre-defined list, skip this.
+      placeholder: If you have selected a DNS server from the pre-defined list, skip this.
     validations:
       required: false
+
   - type: dropdown
     id: stealth
     attributes:
@@ -284,12 +292,12 @@ body:
   - type: input
     id: customer_id
     attributes:
-      label: Support ticket ID
+      label: Support Ticket ID
       description: If you've already sent us a diagnostic report through the application, share the ticket ID number. You can find it in an auto-reply email from AdGuard support after sending a report.
       placeholder: Enter a ticket ID
     validations:
       required: false
-      
+
   - type: textarea
     id: what-happened
     attributes:
@@ -298,12 +306,12 @@ body:
       placeholder:
       value: |
         Steps to reproduce:
-        1.
-        2.
-        3.
+        1. 
+        2. 
+        3. 
     validations:
       required: true
-      
+
   - type: textarea
     id: how_it_should_be
     attributes:
@@ -311,7 +319,7 @@ body:
       placeholder: A clear and concise description of what you expected to happen.
     validations:
       required: false
-      
+
   - type: textarea
     id: how_it_is
     attributes:
@@ -319,7 +327,7 @@ body:
       placeholder: A clear description of what happened instead.
     validations:
       required: true
-      
+
   - type: textarea
     id: screens
     attributes:
@@ -332,13 +340,13 @@ body:
       value: |
           <details><summary>Screenshot 1</summary>
           <!-- Paste screenshot below. -->
-
-
+          
+          
           
           </details>
     validations:
       required: false
-      
+
   - type: textarea
     id: additional
     attributes:
